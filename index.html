@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Metakunal | Web Developer</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <!-- NEW SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                        clip-rule="evenodd" />
+                </svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+                <span class="ml-3 text-xl">METAKUNAL</span>
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+                <a href="#about" class="mr-5 hover:text-white">About</a>
+                <a href="#projects" class="mr-5 hover:text-white">Projects</a>
+                <a href="#academics" class="mr-5 hover:text-white">Academics</a>
+                <a href="#blog" class="mr-5 hover:text-white">Blog</a>
+            </nav>
+            <a href="https://forms.gle/wiEcRBHvjA7FfPXa7" target="_blank"><button
+                    class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Work
+                    With Me
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button></a>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="about" class="text-gray-400 bg-gray-900 body-font">
+        <h1>About Me 🤵</h1>
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" id="titleimg" alt="hero"
+                src="images/dp.gif">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hi :D, I am Kunal.</h1>
+                <p class="leading-relaxed mb-8">I am currently pursuing my B.tech in Electronics and Communication
+                    Engineering from NIT Allahabad. I am primarily a Web 💻 Developer (MERN Stack) and knows bit of
+                    mobile 📱
+                    development (React Native) too. I love
+                    exploring new technologies 👨‍💻 and making cool projects with them. When I am not not coding I love
+                    bragging 🎙 about my projects on Twitter.</p>
+                <div class="flex justify-center">
+                    <a href="https://github.com/metakunal" target="_blank"><button
+                            class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Github</button></a>
+                    <a href="https://twitter.com/metakunal" target="_blank"><button
+                            class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Twitter</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">I also roll-out a Newsletter
+                    📰 every month, where I talk about Development, Productivity, Science and Life in General.</h1>
+                <a href="https://metakunal.substack.com/p/coming-soon" target="_blank"><button
+                        class="flex-shrink-0 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg mt-10 sm:mt-0">SignUp</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="text-gray-400 body-font bg-gray-900">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Projects Done By Me
+                    </h1>
+                    <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">I like gaining practical
+                    knowledge and try to make projects using whatever new things I learn of course to enhance my skils
+                    🤹‍♀️
+                    (and also to flex 💪 a bit).</p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/asan.gif"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">JAVASCRIPT</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">ASAN.AI</h2>
+                        <p class="leading-relaxed text-base">It serves as your AI driven yoga 🧘‍♀️ companion to train
+                            you in your yoga journey. Made with TensorFlow and p5.js.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/asan/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/imgedit.png"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">JAVASCRIPT</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Web Photo Editor</h2>
+                        <p class="leading-relaxed text-base">A basic photo editor, that can add filters to the image 📷
+                            and
+                            can be used to adjust other properties.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/editimgweb/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/chat.gif"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">NODE.JS</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Let's Chat</h2>
+                        <p class="leading-relaxed text-base">A realtime application made without page refresh 🔃 or AJAX
+                            call. Implemented using socket.io.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://github.com/metakunal/chatapp" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/tinderbot.gif"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">JAVASCRIPT</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Tinder Chatbot</h2>
+                        <p class="leading-relaxed text-base">A chatbot for auto login into your Tinder account. This
+                            will also left and right swipe for you randomly.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://github.com/metakunal/tinderbot" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/canvas.png"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">MATHS+JS</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Canvass </h2>
+                        <p class="leading-relaxed text-base">Fun projects made using HTML Canvas, combined with some Mathematics. Adaptive to user clicks.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/canvasprojects/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/dsa.jpg"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">C++</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">DSA Snippets</h2>
+                        <p class="leading-relaxed text-base">A running documentation of the DSA concepts , I am
+                            learning. Snippets can be used in online contests.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/dsasnippets/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/vanillajs.png"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">Compilation</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Vanilla JS Projects</h2>
+                        <p class="leading-relaxed text-base">A collection of the simple projects I made to practise
+                            Javascript, DOM maniputation and other development concepts.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/vanillajsprojects/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/ui.png"
+                            alt="content">
+                        <h3 class="tracking-widest text-yellow-400 text-xs font-medium title-font">Compilation</h3>
+                        <h2 class="text-lg text-white font-medium title-font mb-4">Frontend/UI Projects</h2>
+                        <p class="leading-relaxed text-base">Projects made to improve on my UI, responsive web design
+                            skills. Can be used as templates or taken as reference.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.github.io/responsivewebdesign/" target="_blank">See More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Academics Section -->
+    <section id="academics" class="text-gray-400 bg-gray-900 body-font">
+        <h1>Academics 👨‍🎓</h1>
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">
+                    1</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path
+                                d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                        </svg>
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg> -->
+                    </div>
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-white mb-1 text-xl">B.tech - ECE</h2>
+                        <p class="leading-relaxed">Pursuing B.tech at NIT Allahabad, (2024 Batch) | Current CGPA : 8.75
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">
+                    2</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg> -->
+                    </div>
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-white mb-1 text-xl">JEE Mains </h2>
+                        <p class="leading-relaxed">Obtained 99.37 percentile in JEE Mains 2020 among a pool of 11 lakh +
+                            students.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">
+                    3</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                            <path fill-rule="evenodd"
+                                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                  <circle cx="12" cy="5" r="3"></circle>
+                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                </svg> -->
+                    </div>
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-white mb-1 text-xl">CBSE - XII</h2>
+                        <p class="leading-relaxed">Completed XII in 2019 with PCM and got 95.6 % in the board
+                            examinations | Techcriti IIT Kanpur - AIR 144 | NCO - AIR 242</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                </div>
+                <div
+                    class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">
+                    4</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
+                        </svg>
+                        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg> -->
+                    </div>
+                    <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                        <h2 class="font-medium title-font text-white mb-1 text-xl">ICSE - X</h2>
+                        <p class="leading-relaxed">Completed X in 2017 with an aggregate of 94.6% in board examinations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog" class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <h1>BLOG 📝</h1>
+        <div class="container px-5 py-24 mx-auto">
+            <div class="-my-8 divide-y-2 divide-gray-800">
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">SCIENCE</span>
+                        <span class="mt-1 text-gray-500 text-sm">10 July 2021</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">The Science of Thinking — Conformity
+                        </h2>
+                        <p class="leading-relaxed">You might have an opinion that mechanical keyboards are better for
+                            typing than the Laptop keyboards or the dark themed IDEs are better for your eyes than the
+                            light themed one. But I use Laptop keyboards and light themed IDEs for coding. In-fact I do
+                            not even listen to K-POP or do not even watch pop culture hit American shows, even if people
+                            remind to do so every alternate day.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.medium.com/the-science-of-thinking-conformity-ea4acab5d989"
+                            target="_blank">Read More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">SCIENCE</span>
+                        <span class="mt-1 text-gray-500 text-sm">12 July 2021</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">We are still in the big bang.</h2>
+                        <p class="leading-relaxed">You know a lot of Physics has to do with how you look at things, and
+                            only a few things in Physics are able to surpass the speed of light. But there is actually
+                            one very specific thing that exceeds the speed of light, 73.3 ±2.5 kilometers per second per
+                            megaparsec. And that is the constant at which space is expanding.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.medium.com/we-are-still-in-the-big-bang-3c42d99fa3e9"
+                            target="_blank">Read More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-white">COMPUTER SCIENCE</span>
+                        <span class="mt-1 text-gray-500 text-sm">15 July 2021</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-white title-font mb-2">How Randomness is created in
+                            Machines? </h2>
+                        <p class="leading-relaxed">We all have used random number generating functions in the
+                            programming language we code, but do you know how these functions work?
+                            There are two categories of random numbers — “true” random numbers and pseudorandom numbers
+                            — and the difference is important for the security of encryption systems.</p>
+                        <a class="text-yellow-400 inline-flex items-center mt-4"
+                            href="https://metakunal.medium.com/how-randomness-is-created-in-machines-62270fc79af9"
+                            target="_blank">Read More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                        clip-rule="evenodd" />
+                </svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg> -->
+                <span class="ml-3 text-xl">MetaKunal</span>
+            </a>
+            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">©
+                2021 metakunal.com —
+                <a href="https://twitter.com/metakunal" class="text-gray-500 ml-1" target="_blank"
+                    rel="noopener noreferrer">@kunal</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <!-- Facebook -->
+                <!-- <a class="text-gray-400">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a> -->
+                <!-- Twitter -->
+                <a class="ml-3 text-gray-400" href="https://twitter.com/metakunal" target="_blank">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <!-- Instagram -->
+                <a class="ml-3 text-gray-400" href="https://www.instagram.com/kunalonig/" target="_blank">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a class="ml-3 text-gray-400" href="https://www.linkedin.com/in/metakunal/" target="_blank">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
